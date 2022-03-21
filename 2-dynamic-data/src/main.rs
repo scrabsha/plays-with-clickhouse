@@ -82,6 +82,10 @@ impl Serialize for DynamicStruct {
         // This makes me think that the `clickhouse` crates aims to work with
         // concrete types only, which is not our use case here.
         //
+        // I guess that the expected way to make clickhouse accept our data is
+        // to use `serialize_struct`, but this method expect that we know struct
+        // name and its fields at compile-time.
+        //
         // https://docs.rs/clickhouse/0.10.0/src/clickhouse/rowbinary/ser.rs.html#168
         self.data
             .iter()
