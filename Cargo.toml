@@ -1,2 +1,2 @@
 [workspace]
-members = ["1-hello-world"]
+members = ["1-hello-world", "2-dynamic-data"]
