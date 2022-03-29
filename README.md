@@ -16,3 +16,4 @@ different experiment. They are listed above:
 | `1-hello-world` | A super simple hello-world code where we insert hardcoded data in a database. |
 | `2-dynamic-data` | An attempt to port the previous experiment to runtime-defined data structures. |
 | `3-another-crate` | :tada: I got it working for runtime-defined data structures with `clickhouse-rs`. |
+| `4-value-and-co` | Switched everything to `async-std`, column name and type known ahead of time, actual tremor values. |

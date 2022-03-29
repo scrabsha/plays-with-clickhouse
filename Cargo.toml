@@ -1,2 +1,7 @@
 [workspace]
-members = ["1-hello-world", "2-dynamic-data", "3-another-crate"]
+members = [
+    "1-hello-world",
+    "2-dynamic-data",
+    "3-another-crate",
+    "4-value-and-co",
+]
