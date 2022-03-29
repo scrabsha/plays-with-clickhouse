@@ -18,7 +18,7 @@ macro_rules! dynamic_struct {
     };
 }
 
-#[tokio::main]
+#[async_std::main]
 async fn main() -> Result<(), Box<dyn Error>> {
     let ddl = r"
         CREATE TABLE IF NOT EXISTS people (
